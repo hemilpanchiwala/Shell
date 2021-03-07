@@ -1,4 +1,4 @@
-#include "help.h"
+#include "header.h"
 
 
 extern char *poss_commands[50];

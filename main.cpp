@@ -1,11 +1,4 @@
-#include <sys/wait.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-
-#include "help.h"
+#include "header.h"
 
 #define BUFFER_SIZE 1024
 #define TOK_BUFFER_SIZE 64
@@ -23,26 +16,31 @@ int execute_exit(char **input_args);
 
 char *poss_commands[50] = {
 	"cd",
-	"ls",
-	"echo",
+	// "ls",
+	// "echo",
 	"pwd",
-	"history",
-	"whoami",
+	// "history",
+	// "whoami",
 	"help",
 	"exit"
 };
 
 
 int (*corresponding_func[]) (char **) = {
-	// &execute_cd,
+	&execute_cd,
 	// &execute_ls,
 	// &execute_echo,
-	// &execute_pwd,
+	&execute_pwd,
 	// &execute_history,
 	// &execute_whoami,
 	&execute_help,
-	// &execute_exit
+	&execute_exit
 };
+
+
+int execute_exit(char **input_args){
+  return 0;
+}
 
 
 int execute_command(char **input_args){
@@ -138,7 +136,7 @@ void loop_input(){
 	int status;
 
 	do {
-		printf("hha@LBP-shell>> ");
+		printf("\033[;32mhha@LBP-shell>>\033[0m ");
 
 		input_line = read_input();
 		splitted_input = split_input_line(input_line);
