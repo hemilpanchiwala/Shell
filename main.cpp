@@ -4,6 +4,7 @@
 #define TOK_BUFFER_SIZE 64
 #define INPUT_LINE_DELIM " \t\r\n\a"
 
+using namespace std;
 
 int execute_cd(char **input_args);
 int execute_ls(char **input_args);
@@ -18,11 +19,11 @@ int execute_rm(char **input_args);
 
 char *poss_commands[50] = {
 	"cd",
-	// "ls",
-	// "echo",
+	"ls",
+	"echo",
 	"pwd",
-	// "history",
-	// "whoami",
+	"history",
+	"whoami",
 	"help",
 	"exit",
 	"touch",
@@ -32,11 +33,11 @@ char *poss_commands[50] = {
 
 int (*corresponding_func[]) (char **) = {
 	&execute_cd,
-	// &execute_ls,
-	// &execute_echo,
+	&execute_ls,
+	&execute_echo,
 	&execute_pwd,
-	// &execute_history,
-	// &execute_whoami,
+	&execute_history,
+	&execute_whoami,
 	&execute_help,
 	&execute_exit,
 	&execute_touch,
@@ -141,10 +142,19 @@ void loop_input(){
 	char **splitted_input;
 	int status;
 
+	ofstream history_file("history.txt", ios::out | ios::app);
+	string command;
+
 	do {
 		printf("\033[;32mhha@LBP-shell>>\033[0m ");
 
 		input_line = read_input();
+		
+		command = input_line;
+		command += "\n";
+		history_file << command;
+		history_file.flush();
+
 		splitted_input = split_input_line(input_line);
 		status = execute_command(splitted_input);
 
@@ -152,6 +162,8 @@ void loop_input(){
 		free(splitted_input);
 
 	} while (status);
+
+	history_file.close();
 }
 
 
