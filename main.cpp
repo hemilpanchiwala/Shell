@@ -4,7 +4,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <help.h>
+
+#include "help.h"
 
 #define BUFFER_SIZE 1024
 #define TOK_BUFFER_SIZE 64
@@ -17,11 +18,10 @@ int execute_echo(char **input_args);
 int execute_pwd(char **input_args);
 int execute_history(char **input_args);
 int execute_whoami(char **input_args);
-int execute_help(char **input_args);
 int execute_exit(char **input_args);
 
 
-char poss_commands[][50] = {
+char *poss_commands[50] = {
 	"cd",
 	"ls",
 	"echo",
@@ -34,14 +34,14 @@ char poss_commands[][50] = {
 
 
 int (*corresponding_func[]) (char **) = {
-	&execute_cd,
-	&execute_ls,
-	&execute_echo,
-	&execute_pwd,
-	&execute_history,
-	&execute_whoami,
+	// &execute_cd,
+	// &execute_ls,
+	// &execute_echo,
+	// &execute_pwd,
+	// &execute_history,
+	// &execute_whoami,
 	&execute_help,
-	&execute_exit
+	// &execute_exit
 };
 
 
@@ -161,7 +161,6 @@ int main(){
 	printf("*********************************\n\n");
 
 	char** something;
-	lsh_help(something);
 
 	loop_input();
 	return 0;

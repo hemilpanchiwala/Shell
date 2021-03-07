@@ -1,20 +1,9 @@
-#include <stdio.h>
-#include <string.h>
+#include "help.h"
 
 
-char poss_commands[][50] = {
-	"cd",
-	"ls",
-	"echo",
-	"pwd",
-	"history",
-	"whoami",
-	"help",
-	"exit"
-};
+extern char *poss_commands[50];
 
-
-int lsh_help(char **args)
+int execute_help(char **args)
 {
   int i;
   printf("Hemant, Hemil, Ashish UNIX SHELL VARIANT\n");
@@ -27,10 +16,4 @@ int lsh_help(char **args)
 
   printf("Use the man command for information on other programs.\n");
   return 1;
-}
-
-int main(int argc, char const *argv[])
-{
-	
-	return 0;
 }
