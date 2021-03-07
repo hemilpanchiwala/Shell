@@ -12,6 +12,8 @@ int execute_pwd(char **input_args);
 int execute_history(char **input_args);
 int execute_whoami(char **input_args);
 int execute_exit(char **input_args);
+int execute_touch(char **input_args);
+int execute_rm(char **input_args);
 
 
 char *poss_commands[50] = {
@@ -22,7 +24,9 @@ char *poss_commands[50] = {
 	// "history",
 	// "whoami",
 	"help",
-	"exit"
+	"exit",
+	"touch",
+	"rm"
 };
 
 
@@ -34,7 +38,9 @@ int (*corresponding_func[]) (char **) = {
 	// &execute_history,
 	// &execute_whoami,
 	&execute_help,
-	&execute_exit
+	&execute_exit,
+	&execute_touch,
+	&execute_rm
 };
 
 
