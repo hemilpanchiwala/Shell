@@ -1,0 +1,30 @@
+cd ..
+cd she
+cd shell
+exit
+pwd
+cd ../../
+cd Desktop/shell
+exit
+history
+exit
+pwd
+exit
+history
+exit
+echo hello everyone
+history
+exit
+whoami
+exit
+help
+pwd
+cd ../..
+cd shell
+cd Desktop/shell
+whoami
+echo echo something    wow
+ls
+exit
+echo something
+history
