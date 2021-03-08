@@ -14,6 +14,8 @@ int execute_whoami(char **input_args);
 int execute_exit(char **input_args);
 int execute_touch(char **input_args);
 int execute_rm(char **input_args);
+int execute_unzip(char **input_args);
+int execute_zip(char **input_args);
 
 
 char *poss_commands[50] = {
@@ -26,7 +28,9 @@ char *poss_commands[50] = {
 	"help",
 	"exit",
 	"touch",
-	"rm"
+	"rm",
+	"zip",
+	"unzip"
 };
 
 
@@ -40,7 +44,9 @@ int (*corresponding_func[]) (char **) = {
 	&execute_help,
 	&execute_exit,
 	&execute_touch,
-	&execute_rm
+	&execute_rm,
+	&execute_zip,
+	&execute_unzip
 };
 
 

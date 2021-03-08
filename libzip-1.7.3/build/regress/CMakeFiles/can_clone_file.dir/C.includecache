@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/can_clone_file.c
+stdlib.h
+-
+config.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/config.h
+sys/attr.h
+-
+sys/mount.h
+-
+sys/param.h
+-
+errno.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+linux/fs.h
+-
+sys/ioctl.h
+-
+errno.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+
+config.h
+zipconf.h
+zipconf.h
+
+zipconf.h
+inttypes.h
+-
+

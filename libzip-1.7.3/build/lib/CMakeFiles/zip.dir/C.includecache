@@ -1,0 +1,848 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/compat.h
+zipconf.h
+../lib/zipconf.h
+config.h
+../lib/config.h
+io.h
+-
+stdbool.h
+-
+errno.h
+-
+limits.h
+-
+
+../lib/zip.h
+zipconf.h
+-
+stdio.h
+-
+sys/types.h
+-
+time.h
+-
+
+../lib/zipint.h
+config.h
+../lib/config.h
+compat.h
+../lib/compat.h
+stdlib.h
+-
+zip.h
+../lib/zip.h
+string.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/zip_err_str.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/compat.h
+zipconf.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipconf.h
+config.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/config.h
+io.h
+-
+stdbool.h
+-
+errno.h
+-
+limits.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip.h
+zipconf.h
+-
+stdio.h
+-
+sys/types.h
+-
+time.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_add.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_add_dir.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_add_entry.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_algorithm_deflate.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+limits.h
+-
+stdlib.h
+-
+zlib.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_buffer.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_close.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+stdio.h
+-
+stdlib.h
+-
+fcntl.h
+-
+io.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto.h
+zip_crypto_win.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_win.h
+zip_crypto_commoncrypto.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_commoncrypto.h
+zip_crypto_gnutls.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_gnutls.h
+zip_crypto_openssl.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_openssl.h
+zip_crypto_mbedtls.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_mbedtls.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_commoncrypto.h
+CommonCrypto/CommonCrypto.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_gnutls.h
+nettle/aes.h
+-
+nettle/pbkdf2.h
+-
+gnutls/gnutls.h
+-
+gnutls/crypto.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_mbedtls.h
+mbedtls/aes.h
+-
+mbedtls/md.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_openssl.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+zip_crypto.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto.h
+openssl/rand.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_openssl.h
+openssl/aes.h
+-
+openssl/hmac.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto_win.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_delete.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_dir_add.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_dirent.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+time.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_discard.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_entry.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_error.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_error_clear.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_error_get.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_error_get_sys_type.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_error_strerror.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+zlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_error_to_str.c
+stdio.h
+-
+string.h
+-
+zlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_extra_field.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_extra_field_api.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fclose.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fdopen.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+unistd.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_add.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_error_clear.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_error_get.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_get_comment.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_get_external_attributes.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_get_offset.c
+stdio.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_rename.c
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_replace.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_set_comment.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_set_encryption.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+stdlib.h
+-
+string.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_set_external_attributes.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_set_mtime.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_file_strerror.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fopen.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fopen_encrypted.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fopen_index.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fopen_index_encrypted.c
+stdio.h
+-
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fread.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_fseek.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_ftell.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_get_archive_comment.c
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_get_archive_flag.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_get_encryption_implementation.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_get_file_comment.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_get_name.c
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_get_num_entries.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_get_num_files.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+limits.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_hash.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+stdlib.h
+-
+string.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_io_util.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_libzip_version.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_memdup.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_mkstempm.c
+errno.h
+-
+fcntl.h
+-
+string.h
+-
+sys/stat.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_name_locate.c
+string.h
+-
+strings.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_new.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_open.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_pkware.c
+stdlib.h
+-
+zlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_progress.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_random_unix.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+zip_crypto.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto.h
+stdlib.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_rename.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_replace.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_set_archive_comment.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_set_archive_flag.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_set_default_password.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_set_file_comment.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_set_file_compression.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_set_name.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_accept_empty.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_begin_write.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_begin_write_cloning.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_buffer.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_call.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_close.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_commit_write.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_compress.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_crc.c
+limits.h
+-
+stdlib.h
+-
+zlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_error.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file_common.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+zip_source_file.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file_stdio.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+zip_source_file.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file.h
+zip_source_file_stdio.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file_stdio.h
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/stat.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file_stdio.h
+stdio.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file_stdio_named.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+zip_source_file.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file.h
+zip_source_file_stdio.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_file_stdio.h
+stdlib.h
+-
+sys/stat.h
+-
+unistd.h
+-
+sys/attr.h
+-
+sys/clonefile.h
+-
+linux/fs.h
+-
+sys/ioctl.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_free.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_function.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_get_file_attributes.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_is_deleted.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_layered.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_open.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_pkware_decode.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_pkware_encode.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_read.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_remove.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_rollback_write.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_seek.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_seek_write.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_stat.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_supports.c
+stdarg.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_tell.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_tell_write.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_window.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_winzip_aes_decode.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_winzip_aes_encode.c
+stdlib.h
+-
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_write.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_zip.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_source_zip_new.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_stat.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_stat_index.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_stat_init.c
+string.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_strerror.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_string.c
+stdlib.h
+-
+string.h
+-
+zlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_unchange.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_unchange_all.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_unchange_archive.c
+stdlib.h
+-
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_unchange_data.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_utf-8.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+stdlib.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_winzip_aes.c
+zipint.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+zip_crypto.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip_crypto.h
+stdlib.h
+-
+string.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zipint.h
+config.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/config.h
+compat.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/compat.h
+stdlib.h
+-
+zip.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/lib/zip.h
+string.h
+-
+
+config.h
+zipconf.h
+zipconf.h
+
+zipconf.h
+inttypes.h
+-
+
