@@ -1,0 +1,2013 @@
+Start testing: Mar 07 22:11 IST
+----------------------------------------------------------
+1/134 Testing: add_dir.test
+1/134 Test: add_dir.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_dir.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_dir.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_dir.test" end time: Mar 07 22:11 IST
+"add_dir.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/134 Testing: add_from_buffer.test
+2/134 Test: add_from_buffer.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_buffer.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_buffer.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_buffer.test" end time: Mar 07 22:11 IST
+"add_from_buffer.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/134 Testing: add_from_file.test
+3/134 Test: add_from_file.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_file.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_file.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_file.test" end time: Mar 07 22:11 IST
+"add_from_file.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/134 Testing: add_from_file_duplicate.test
+4/134 Test: add_from_file_duplicate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_file_duplicate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_file_duplicate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_file_duplicate.test" end time: Mar 07 22:11 IST
+"add_from_file_duplicate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/134 Testing: add_from_file_twice_duplicate.test
+5/134 Test: add_from_file_twice_duplicate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_file_twice_duplicate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_file_twice_duplicate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_file_twice_duplicate.test" end time: Mar 07 22:11 IST
+"add_from_file_twice_duplicate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/134 Testing: add_from_filep.test
+6/134 Test: add_from_filep.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_filep.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_filep.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_filep.test" end time: Mar 07 22:11 IST
+"add_from_filep.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/134 Testing: add_from_stdin.test
+7/134 Test: add_from_stdin.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_stdin.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_stdin.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_stdin.test" end time: Mar 07 22:11 IST
+"add_from_stdin.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/134 Testing: add_from_zip_closed.test
+8/134 Test: add_from_zip_closed.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_zip_closed.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_zip_closed.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_zip_closed.test" end time: Mar 07 22:11 IST
+"add_from_zip_closed.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/134 Testing: add_from_zip_deflated.test
+9/134 Test: add_from_zip_deflated.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_zip_deflated.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_zip_deflated.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_zip_deflated.test" end time: Mar 07 22:11 IST
+"add_from_zip_deflated.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/134 Testing: add_from_zip_deflated2.test
+10/134 Test: add_from_zip_deflated2.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_zip_deflated2.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_zip_deflated2.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_zip_deflated2.test" end time: Mar 07 22:11 IST
+"add_from_zip_deflated2.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/134 Testing: add_from_zip_partial_deflated.test
+11/134 Test: add_from_zip_partial_deflated.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_zip_partial_deflated.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_zip_partial_deflated.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_zip_partial_deflated.test" end time: Mar 07 22:11 IST
+"add_from_zip_partial_deflated.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/134 Testing: add_from_zip_partial_stored.test
+12/134 Test: add_from_zip_partial_stored.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_zip_partial_stored.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_zip_partial_stored.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_zip_partial_stored.test" end time: Mar 07 22:11 IST
+"add_from_zip_partial_stored.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/134 Testing: add_from_zip_stored.test
+13/134 Test: add_from_zip_stored.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_from_zip_stored.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_from_zip_stored.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_from_zip_stored.test" end time: Mar 07 22:11 IST
+"add_from_zip_stored.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/134 Testing: add_stored.test
+14/134 Test: add_stored.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_stored.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_stored.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_stored.test" end time: Mar 07 22:11 IST
+"add_stored.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/134 Testing: add_stored_in_memory.test
+15/134 Test: add_stored_in_memory.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/add_stored_in_memory.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"add_stored_in_memory.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"add_stored_in_memory.test" end time: Mar 07 22:11 IST
+"add_stored_in_memory.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/134 Testing: buffer-fragment-read.test
+16/134 Test: buffer-fragment-read.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/buffer-fragment-read.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"buffer-fragment-read.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"buffer-fragment-read.test" end time: Mar 07 22:11 IST
+"buffer-fragment-read.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/134 Testing: buffer-fragment-write.test
+17/134 Test: buffer-fragment-write.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/buffer-fragment-write.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"buffer-fragment-write.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"buffer-fragment-write.test" end time: Mar 07 22:11 IST
+"buffer-fragment-write.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/134 Testing: cancel_45.test
+18/134 Test: cancel_45.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/cancel_45.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"cancel_45.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"cancel_45.test" end time: Mar 07 22:11 IST
+"cancel_45.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/134 Testing: cancel_90.test
+19/134 Test: cancel_90.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/cancel_90.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"cancel_90.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"cancel_90.test" end time: Mar 07 22:11 IST
+"cancel_90.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/134 Testing: clone-buffer-add.test
+20/134 Test: clone-buffer-add.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/clone-buffer-add.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"clone-buffer-add.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"clone-buffer-add.test" end time: Mar 07 22:11 IST
+"clone-buffer-add.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/134 Testing: clone-buffer-delete.test
+21/134 Test: clone-buffer-delete.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/clone-buffer-delete.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"clone-buffer-delete.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"clone-buffer-delete.test" end time: Mar 07 22:11 IST
+"clone-buffer-delete.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/134 Testing: clone-buffer-replace.test
+22/134 Test: clone-buffer-replace.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/clone-buffer-replace.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"clone-buffer-replace.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"clone-buffer-replace.test" end time: Mar 07 22:11 IST
+"clone-buffer-replace.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/134 Testing: clone-fs-add.test
+23/134 Test: clone-fs-add.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/clone-fs-add.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"clone-fs-add.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clone-fs-add.test" end time: Mar 07 22:11 IST
+"clone-fs-add.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/134 Testing: clone-fs-delete.test
+24/134 Test: clone-fs-delete.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/clone-fs-delete.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"clone-fs-delete.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clone-fs-delete.test" end time: Mar 07 22:11 IST
+"clone-fs-delete.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/134 Testing: clone-fs-replace.test
+25/134 Test: clone-fs-replace.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/clone-fs-replace.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"clone-fs-replace.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"clone-fs-replace.test" end time: Mar 07 22:11 IST
+"clone-fs-replace.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/134 Testing: cm-default.test
+26/134 Test: cm-default.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/cm-default.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"cm-default.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"cm-default.test" end time: Mar 07 22:11 IST
+"cm-default.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/134 Testing: count_entries.test
+27/134 Test: count_entries.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/count_entries.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"count_entries.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"count_entries.test" end time: Mar 07 22:11 IST
+"count_entries.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/134 Testing: decrypt-correct-password-aes128.test
+28/134 Test: decrypt-correct-password-aes128.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-correct-password-aes128.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-correct-password-aes128.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-correct-password-aes128.test" end time: Mar 07 22:11 IST
+"decrypt-correct-password-aes128.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/134 Testing: decrypt-correct-password-aes192.test
+29/134 Test: decrypt-correct-password-aes192.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-correct-password-aes192.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-correct-password-aes192.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-correct-password-aes192.test" end time: Mar 07 22:11 IST
+"decrypt-correct-password-aes192.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/134 Testing: decrypt-correct-password-aes256.test
+30/134 Test: decrypt-correct-password-aes256.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-correct-password-aes256.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-correct-password-aes256.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-correct-password-aes256.test" end time: Mar 07 22:11 IST
+"decrypt-correct-password-aes256.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/134 Testing: decrypt-correct-password-pkware.test
+31/134 Test: decrypt-correct-password-pkware.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-correct-password-pkware.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-correct-password-pkware.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-correct-password-pkware.test" end time: Mar 07 22:11 IST
+"decrypt-correct-password-pkware.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/134 Testing: decrypt-no-password-aes256.test
+32/134 Test: decrypt-no-password-aes256.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-no-password-aes256.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-no-password-aes256.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-no-password-aes256.test" end time: Mar 07 22:11 IST
+"decrypt-no-password-aes256.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/134 Testing: decrypt-wrong-password-aes128.test
+33/134 Test: decrypt-wrong-password-aes128.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-wrong-password-aes128.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-wrong-password-aes128.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-wrong-password-aes128.test" end time: Mar 07 22:11 IST
+"decrypt-wrong-password-aes128.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/134 Testing: decrypt-wrong-password-aes192.test
+34/134 Test: decrypt-wrong-password-aes192.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-wrong-password-aes192.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-wrong-password-aes192.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-wrong-password-aes192.test" end time: Mar 07 22:11 IST
+"decrypt-wrong-password-aes192.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/134 Testing: decrypt-wrong-password-aes256.test
+35/134 Test: decrypt-wrong-password-aes256.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-wrong-password-aes256.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-wrong-password-aes256.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-wrong-password-aes256.test" end time: Mar 07 22:11 IST
+"decrypt-wrong-password-aes256.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/134 Testing: decrypt-wrong-password-pkware.test
+36/134 Test: decrypt-wrong-password-pkware.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/decrypt-wrong-password-pkware.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"decrypt-wrong-password-pkware.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"decrypt-wrong-password-pkware.test" end time: Mar 07 22:11 IST
+"decrypt-wrong-password-pkware.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/134 Testing: delete_add_same.test
+37/134 Test: delete_add_same.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/delete_add_same.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"delete_add_same.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"delete_add_same.test" end time: Mar 07 22:11 IST
+"delete_add_same.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/134 Testing: delete_invalid.test
+38/134 Test: delete_invalid.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/delete_invalid.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"delete_invalid.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"delete_invalid.test" end time: Mar 07 22:11 IST
+"delete_invalid.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/134 Testing: delete_last.test
+39/134 Test: delete_last.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/delete_last.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"delete_last.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"delete_last.test" end time: Mar 07 22:11 IST
+"delete_last.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/134 Testing: delete_multiple_last.test
+40/134 Test: delete_multiple_last.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/delete_multiple_last.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"delete_multiple_last.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"delete_multiple_last.test" end time: Mar 07 22:11 IST
+"delete_multiple_last.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/134 Testing: delete_multiple_partial.test
+41/134 Test: delete_multiple_partial.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/delete_multiple_partial.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"delete_multiple_partial.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"delete_multiple_partial.test" end time: Mar 07 22:11 IST
+"delete_multiple_partial.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/134 Testing: delete_renamed_rename.test
+42/134 Test: delete_renamed_rename.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/delete_renamed_rename.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"delete_renamed_rename.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"delete_renamed_rename.test" end time: Mar 07 22:11 IST
+"delete_renamed_rename.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/134 Testing: encrypt.test
+43/134 Test: encrypt.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/encrypt.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"encrypt.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"encrypt.test" end time: Mar 07 22:11 IST
+"encrypt.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/134 Testing: encryption-nonrandom-aes128.test
+44/134 Test: encryption-nonrandom-aes128.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/encryption-nonrandom-aes128.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"encryption-nonrandom-aes128.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"encryption-nonrandom-aes128.test" end time: Mar 07 22:11 IST
+"encryption-nonrandom-aes128.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/134 Testing: encryption-nonrandom-aes192.test
+45/134 Test: encryption-nonrandom-aes192.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/encryption-nonrandom-aes192.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"encryption-nonrandom-aes192.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"encryption-nonrandom-aes192.test" end time: Mar 07 22:11 IST
+"encryption-nonrandom-aes192.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/134 Testing: encryption-nonrandom-aes256.test
+46/134 Test: encryption-nonrandom-aes256.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/encryption-nonrandom-aes256.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"encryption-nonrandom-aes256.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"encryption-nonrandom-aes256.test" end time: Mar 07 22:11 IST
+"encryption-nonrandom-aes256.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/134 Testing: encryption-nonrandom-pkware.test
+47/134 Test: encryption-nonrandom-pkware.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/encryption-nonrandom-pkware.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"encryption-nonrandom-pkware.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"encryption-nonrandom-pkware.test" end time: Mar 07 22:11 IST
+"encryption-nonrandom-pkware.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/134 Testing: encryption-remove.test
+48/134 Test: encryption-remove.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/encryption-remove.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"encryption-remove.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"encryption-remove.test" end time: Mar 07 22:11 IST
+"encryption-remove.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/134 Testing: extra_add.test
+49/134 Test: extra_add.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_add.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_add.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_add.test" end time: Mar 07 22:11 IST
+"extra_add.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/134 Testing: extra_add_multiple.test
+50/134 Test: extra_add_multiple.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_add_multiple.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_add_multiple.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_add_multiple.test" end time: Mar 07 22:11 IST
+"extra_add_multiple.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/134 Testing: extra_count.test
+51/134 Test: extra_count.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_count.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_count.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_count.test" end time: Mar 07 22:11 IST
+"extra_count.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/134 Testing: extra_count_by_id.test
+52/134 Test: extra_count_by_id.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_count_by_id.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_count_by_id.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_count_by_id.test" end time: Mar 07 22:11 IST
+"extra_count_by_id.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/134 Testing: extra_count_ignore_zip64.test
+53/134 Test: extra_count_ignore_zip64.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_count_ignore_zip64.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_count_ignore_zip64.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_count_ignore_zip64.test" end time: Mar 07 22:11 IST
+"extra_count_ignore_zip64.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/134 Testing: extra_delete.test
+54/134 Test: extra_delete.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_delete.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_delete.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_delete.test" end time: Mar 07 22:11 IST
+"extra_delete.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/134 Testing: extra_delete_by_id.test
+55/134 Test: extra_delete_by_id.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_delete_by_id.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_delete_by_id.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_delete_by_id.test" end time: Mar 07 22:11 IST
+"extra_delete_by_id.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/134 Testing: extra_field_align.test
+56/134 Test: extra_field_align.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_field_align.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_field_align.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_field_align.test" end time: Mar 07 22:11 IST
+"extra_field_align.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/134 Testing: extra_get.test
+57/134 Test: extra_get.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_get.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_get.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_get.test" end time: Mar 07 22:11 IST
+"extra_get.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/134 Testing: extra_get_by_id.test
+58/134 Test: extra_get_by_id.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_get_by_id.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_get_by_id.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_get_by_id.test" end time: Mar 07 22:11 IST
+"extra_get_by_id.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/134 Testing: extra_set.test
+59/134 Test: extra_set.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_set.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_set.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_set.test" end time: Mar 07 22:11 IST
+"extra_set.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/134 Testing: extra_set_modify_c.test
+60/134 Test: extra_set_modify_c.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_set_modify_c.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_set_modify_c.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_set_modify_c.test" end time: Mar 07 22:11 IST
+"extra_set_modify_c.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/134 Testing: extra_set_modify_l.test
+61/134 Test: extra_set_modify_l.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/extra_set_modify_l.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"extra_set_modify_l.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"extra_set_modify_l.test" end time: Mar 07 22:11 IST
+"extra_set_modify_l.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/134 Testing: fdopen_ok.test
+62/134 Test: fdopen_ok.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/fdopen_ok.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"fdopen_ok.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"fdopen_ok.test" end time: Mar 07 22:11 IST
+"fdopen_ok.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/134 Testing: file_comment_encmismatch.test
+63/134 Test: file_comment_encmismatch.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/file_comment_encmismatch.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"file_comment_encmismatch.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"file_comment_encmismatch.test" end time: Mar 07 22:11 IST
+"file_comment_encmismatch.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/134 Testing: fopen_unchanged.test
+64/134 Test: fopen_unchanged.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/fopen_unchanged.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"fopen_unchanged.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"fopen_unchanged.test" end time: Mar 07 22:11 IST
+"fopen_unchanged.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/134 Testing: fread.test
+65/134 Test: fread.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/fread.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"fread.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"fread.test" end time: Mar 07 22:11 IST
+"fread.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/134 Testing: fseek_deflated.test
+66/134 Test: fseek_deflated.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/fseek_deflated.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"fseek_deflated.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"fseek_deflated.test" end time: Mar 07 22:11 IST
+"fseek_deflated.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/134 Testing: fseek_fail.test
+67/134 Test: fseek_fail.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/fseek_fail.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"fseek_fail.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"fseek_fail.test" end time: Mar 07 22:11 IST
+"fseek_fail.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/134 Testing: fseek_ok.test
+68/134 Test: fseek_ok.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/fseek_ok.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"fseek_ok.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"fseek_ok.test" end time: Mar 07 22:11 IST
+"fseek_ok.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/134 Testing: get_comment.test
+69/134 Test: get_comment.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/get_comment.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"get_comment.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"get_comment.test" end time: Mar 07 22:11 IST
+"get_comment.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/134 Testing: junk_at_end.test
+70/134 Test: junk_at_end.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/junk_at_end.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"junk_at_end.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"junk_at_end.test" end time: Mar 07 22:11 IST
+"junk_at_end.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/134 Testing: junk_at_start.test
+71/134 Test: junk_at_start.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/junk_at_start.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"junk_at_start.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"junk_at_start.test" end time: Mar 07 22:11 IST
+"junk_at_start.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/134 Testing: name_locate.test
+72/134 Test: name_locate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/name_locate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"name_locate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"name_locate.test" end time: Mar 07 22:11 IST
+"name_locate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/134 Testing: open_cons_extrabytes.test
+73/134 Test: open_cons_extrabytes.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_cons_extrabytes.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_cons_extrabytes.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_cons_extrabytes.test" end time: Mar 07 22:11 IST
+"open_cons_extrabytes.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/134 Testing: open_empty.test
+74/134 Test: open_empty.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_empty.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_empty.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_empty.test" end time: Mar 07 22:11 IST
+"open_empty.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/134 Testing: open_empty_2.test
+75/134 Test: open_empty_2.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_empty_2.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_empty_2.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_empty_2.test" end time: Mar 07 22:11 IST
+"open_empty_2.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/134 Testing: open_extrabytes.test
+76/134 Test: open_extrabytes.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_extrabytes.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_extrabytes.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_extrabytes.test" end time: Mar 07 22:11 IST
+"open_extrabytes.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/134 Testing: open_file_count.test
+77/134 Test: open_file_count.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_file_count.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_file_count.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_file_count.test" end time: Mar 07 22:11 IST
+"open_file_count.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/134 Testing: open_filename_duplicate.test
+78/134 Test: open_filename_duplicate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_filename_duplicate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_filename_duplicate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_filename_duplicate.test" end time: Mar 07 22:11 IST
+"open_filename_duplicate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/134 Testing: open_filename_duplicate_consistency.test
+79/134 Test: open_filename_duplicate_consistency.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_filename_duplicate_consistency.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_filename_duplicate_consistency.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_filename_duplicate_consistency.test" end time: Mar 07 22:11 IST
+"open_filename_duplicate_consistency.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/134 Testing: open_filename_duplicate_empty.test
+80/134 Test: open_filename_duplicate_empty.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_filename_duplicate_empty.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_filename_duplicate_empty.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_filename_duplicate_empty.test" end time: Mar 07 22:11 IST
+"open_filename_duplicate_empty.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/134 Testing: open_filename_duplicate_empty_consistency.test
+81/134 Test: open_filename_duplicate_empty_consistency.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_filename_duplicate_empty_consistency.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_filename_duplicate_empty_consistency.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_filename_duplicate_empty_consistency.test" end time: Mar 07 22:11 IST
+"open_filename_duplicate_empty_consistency.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/134 Testing: open_filename_empty.test
+82/134 Test: open_filename_empty.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_filename_empty.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_filename_empty.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_filename_empty.test" end time: Mar 07 22:11 IST
+"open_filename_empty.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/134 Testing: open_incons.test
+83/134 Test: open_incons.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_incons.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_incons.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_incons.test" end time: Mar 07 22:11 IST
+"open_incons.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/134 Testing: open_many_fail.test
+84/134 Test: open_many_fail.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_many_fail.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_many_fail.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   3.59 sec
+----------------------------------------------------------
+Test Passed.
+"open_many_fail.test" end time: Mar 07 22:11 IST
+"open_many_fail.test" time elapsed: 00:00:03
+----------------------------------------------------------
+
+85/134 Testing: open_many_ok.test
+85/134 Test: open_many_ok.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_many_ok.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_many_ok.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.95 sec
+----------------------------------------------------------
+Test Passed.
+"open_many_ok.test" end time: Mar 07 22:11 IST
+"open_many_ok.test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+86/134 Testing: open_multidisk.test
+86/134 Test: open_multidisk.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_multidisk.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_multidisk.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_multidisk.test" end time: Mar 07 22:11 IST
+"open_multidisk.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/134 Testing: open_new_but_exists.test
+87/134 Test: open_new_but_exists.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_new_but_exists.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_new_but_exists.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_new_but_exists.test" end time: Mar 07 22:11 IST
+"open_new_but_exists.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/134 Testing: open_new_ok.test
+88/134 Test: open_new_ok.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_new_ok.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_new_ok.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_new_ok.test" end time: Mar 07 22:11 IST
+"open_new_ok.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/134 Testing: open_nonarchive.test
+89/134 Test: open_nonarchive.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_nonarchive.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_nonarchive.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_nonarchive.test" end time: Mar 07 22:11 IST
+"open_nonarchive.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/134 Testing: open_nosuchfile.test
+90/134 Test: open_nosuchfile.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_nosuchfile.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_nosuchfile.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_nosuchfile.test" end time: Mar 07 22:11 IST
+"open_nosuchfile.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/134 Testing: open_ok.test
+91/134 Test: open_ok.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_ok.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_ok.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_ok.test" end time: Mar 07 22:11 IST
+"open_ok.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/134 Testing: open_too_short.test
+92/134 Test: open_too_short.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_too_short.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_too_short.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_too_short.test" end time: Mar 07 22:11 IST
+"open_too_short.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/134 Testing: open_truncate.test
+93/134 Test: open_truncate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_truncate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_truncate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_truncate.test" end time: Mar 07 22:11 IST
+"open_truncate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/134 Testing: open_zip64_3mf.test
+94/134 Test: open_zip64_3mf.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_zip64_3mf.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_zip64_3mf.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_zip64_3mf.test" end time: Mar 07 22:11 IST
+"open_zip64_3mf.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/134 Testing: open_zip64_ok.test
+95/134 Test: open_zip64_ok.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/open_zip64_ok.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"open_zip64_ok.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"open_zip64_ok.test" end time: Mar 07 22:11 IST
+"open_zip64_ok.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/134 Testing: preload.test
+96/134 Test: preload.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/preload.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"preload.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"preload.test" end time: Mar 07 22:11 IST
+"preload.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/134 Testing: progress.test
+97/134 Test: progress.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/progress.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"progress.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"progress.test" end time: Mar 07 22:11 IST
+"progress.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/134 Testing: rename_ascii.test
+98/134 Test: rename_ascii.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/rename_ascii.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"rename_ascii.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"rename_ascii.test" end time: Mar 07 22:11 IST
+"rename_ascii.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/134 Testing: rename_cp437.test
+99/134 Test: rename_cp437.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/rename_cp437.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"rename_cp437.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"rename_cp437.test" end time: Mar 07 22:11 IST
+"rename_cp437.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/134 Testing: rename_deleted.test
+100/134 Test: rename_deleted.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/rename_deleted.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"rename_deleted.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"rename_deleted.test" end time: Mar 07 22:11 IST
+"rename_deleted.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/134 Testing: rename_fail.test
+101/134 Test: rename_fail.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/rename_fail.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"rename_fail.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"rename_fail.test" end time: Mar 07 22:11 IST
+"rename_fail.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/134 Testing: rename_ok.test
+102/134 Test: rename_ok.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/rename_ok.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"rename_ok.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"rename_ok.test" end time: Mar 07 22:11 IST
+"rename_ok.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/134 Testing: rename_utf8.test
+103/134 Test: rename_utf8.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/rename_utf8.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"rename_utf8.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"rename_utf8.test" end time: Mar 07 22:11 IST
+"rename_utf8.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/134 Testing: rename_utf8_encmismatch.test
+104/134 Test: rename_utf8_encmismatch.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/rename_utf8_encmismatch.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"rename_utf8_encmismatch.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"rename_utf8_encmismatch.test" end time: Mar 07 22:11 IST
+"rename_utf8_encmismatch.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/134 Testing: set_comment_all.test
+105/134 Test: set_comment_all.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_comment_all.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_comment_all.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_comment_all.test" end time: Mar 07 22:11 IST
+"set_comment_all.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/134 Testing: set_comment_localonly.test
+106/134 Test: set_comment_localonly.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_comment_localonly.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_comment_localonly.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_comment_localonly.test" end time: Mar 07 22:11 IST
+"set_comment_localonly.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+107/134 Testing: set_comment_removeglobal.test
+107/134 Test: set_comment_removeglobal.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_comment_removeglobal.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_comment_removeglobal.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_comment_removeglobal.test" end time: Mar 07 22:11 IST
+"set_comment_removeglobal.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/134 Testing: set_comment_revert.test
+108/134 Test: set_comment_revert.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_comment_revert.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_comment_revert.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_comment_revert.test" end time: Mar 07 22:11 IST
+"set_comment_revert.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+109/134 Testing: set_compression_bzip2_to_deflate.test
+109/134 Test: set_compression_bzip2_to_deflate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_bzip2_to_deflate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_bzip2_to_deflate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_bzip2_to_deflate.test" end time: Mar 07 22:11 IST
+"set_compression_bzip2_to_deflate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+110/134 Testing: set_compression_deflate_to_bzip2.test
+110/134 Test: set_compression_deflate_to_bzip2.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_deflate_to_bzip2.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_deflate_to_bzip2.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_deflate_to_bzip2.test" end time: Mar 07 22:11 IST
+"set_compression_deflate_to_bzip2.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+111/134 Testing: set_compression_deflate_to_deflate.test
+111/134 Test: set_compression_deflate_to_deflate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_deflate_to_deflate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_deflate_to_deflate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_deflate_to_deflate.test" end time: Mar 07 22:11 IST
+"set_compression_deflate_to_deflate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+112/134 Testing: set_compression_deflate_to_store.test
+112/134 Test: set_compression_deflate_to_store.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_deflate_to_store.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_deflate_to_store.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_deflate_to_store.test" end time: Mar 07 22:11 IST
+"set_compression_deflate_to_store.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+113/134 Testing: set_compression_store_to_bzip2.test
+113/134 Test: set_compression_store_to_bzip2.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_store_to_bzip2.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_store_to_bzip2.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_store_to_bzip2.test" end time: Mar 07 22:11 IST
+"set_compression_store_to_bzip2.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+114/134 Testing: set_compression_store_to_deflate.test
+114/134 Test: set_compression_store_to_deflate.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_store_to_deflate.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_store_to_deflate.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_store_to_deflate.test" end time: Mar 07 22:11 IST
+"set_compression_store_to_deflate.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+115/134 Testing: set_compression_store_to_store.test
+115/134 Test: set_compression_store_to_store.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_store_to_store.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_store_to_store.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_store_to_store.test" end time: Mar 07 22:11 IST
+"set_compression_store_to_store.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+116/134 Testing: set_compression_store_to_xz.test
+116/134 Test: set_compression_store_to_xz.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_store_to_xz.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_store_to_xz.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_store_to_xz.test" end time: Mar 07 22:11 IST
+"set_compression_store_to_xz.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+117/134 Testing: set_compression_unknown.test
+117/134 Test: set_compression_unknown.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_unknown.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_unknown.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_unknown.test" end time: Mar 07 22:11 IST
+"set_compression_unknown.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+118/134 Testing: set_compression_xz_to_store.test
+118/134 Test: set_compression_xz_to_store.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_compression_xz_to_store.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_compression_xz_to_store.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"set_compression_xz_to_store.test" end time: Mar 07 22:11 IST
+"set_compression_xz_to_store.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+119/134 Testing: set_file_dostime.test
+119/134 Test: set_file_dostime.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/set_file_dostime.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"set_file_dostime.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"set_file_dostime.test" end time: Mar 07 22:11 IST
+"set_file_dostime.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+120/134 Testing: stat_index_cp437_guess.test
+120/134 Test: stat_index_cp437_guess.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_cp437_guess.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_cp437_guess.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_cp437_guess.test" end time: Mar 07 22:11 IST
+"stat_index_cp437_guess.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+121/134 Testing: stat_index_cp437_raw.test
+121/134 Test: stat_index_cp437_raw.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_cp437_raw.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_cp437_raw.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_cp437_raw.test" end time: Mar 07 22:11 IST
+"stat_index_cp437_raw.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+122/134 Testing: stat_index_cp437_strict.test
+122/134 Test: stat_index_cp437_strict.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_cp437_strict.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_cp437_strict.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_cp437_strict.test" end time: Mar 07 22:11 IST
+"stat_index_cp437_strict.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+123/134 Testing: stat_index_fileorder.test
+123/134 Test: stat_index_fileorder.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_fileorder.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_fileorder.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_fileorder.test" end time: Mar 07 22:11 IST
+"stat_index_fileorder.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+124/134 Testing: stat_index_streamed.test
+124/134 Test: stat_index_streamed.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_streamed.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_streamed.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_streamed.test" end time: Mar 07 22:11 IST
+"stat_index_streamed.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+125/134 Testing: stat_index_streamed_zip64.test
+125/134 Test: stat_index_streamed_zip64.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_streamed_zip64.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_streamed_zip64.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_streamed_zip64.test" end time: Mar 07 22:11 IST
+"stat_index_streamed_zip64.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+126/134 Testing: stat_index_utf8_guess.test
+126/134 Test: stat_index_utf8_guess.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_utf8_guess.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_utf8_guess.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_utf8_guess.test" end time: Mar 07 22:11 IST
+"stat_index_utf8_guess.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+127/134 Testing: stat_index_utf8_raw.test
+127/134 Test: stat_index_utf8_raw.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_utf8_raw.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_utf8_raw.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_utf8_raw.test" end time: Mar 07 22:11 IST
+"stat_index_utf8_raw.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+128/134 Testing: stat_index_utf8_strict.test
+128/134 Test: stat_index_utf8_strict.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_utf8_strict.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_utf8_strict.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_utf8_strict.test" end time: Mar 07 22:11 IST
+"stat_index_utf8_strict.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+129/134 Testing: stat_index_utf8_unmarked_strict.test
+129/134 Test: stat_index_utf8_unmarked_strict.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_utf8_unmarked_strict.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_utf8_unmarked_strict.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_utf8_unmarked_strict.test" end time: Mar 07 22:11 IST
+"stat_index_utf8_unmarked_strict.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+130/134 Testing: stat_index_zip64.test
+130/134 Test: stat_index_zip64.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/stat_index_zip64.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"stat_index_zip64.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"stat_index_zip64.test" end time: Mar 07 22:11 IST
+"stat_index_zip64.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+131/134 Testing: utf-8-standardization.test
+131/134 Test: utf-8-standardization.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/utf-8-standardization.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"utf-8-standardization.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"utf-8-standardization.test" end time: Mar 07 22:11 IST
+"utf-8-standardization.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+132/134 Testing: zip-in-archive-comment.test
+132/134 Test: zip-in-archive-comment.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/zip-in-archive-comment.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"zip-in-archive-comment.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"zip-in-archive-comment.test" end time: Mar 07 22:11 IST
+"zip-in-archive-comment.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+133/134 Testing: zip64_creation.test
+133/134 Test: zip64_creation.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/zip64_creation.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"zip64_creation.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  20.25 sec
+----------------------------------------------------------
+Test Passed.
+"zip64_creation.test" end time: Mar 07 22:11 IST
+"zip64_creation.test" time elapsed: 00:00:20
+----------------------------------------------------------
+
+134/134 Testing: zip64_stored_creation.test
+134/134 Test: zip64_stored_creation.test
+Command: "/usr/bin/perl" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress/runtest" "--bin-sub-directory" "" "/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/regress/zip64_stored_creation.test"
+Directory: /home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/regress
+"zip64_stored_creation.test" start time: Mar 07 22:11 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  11.80 sec
+----------------------------------------------------------
+Test Passed.
+"zip64_stored_creation.test" end time: Mar 07 22:12 IST
+"zip64_stored_creation.test" time elapsed: 00:00:11
+----------------------------------------------------------
+
+End testing: Mar 07 22:12 IST

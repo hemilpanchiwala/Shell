@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/compat.h
+zipconf.h
+../lib/zipconf.h
+config.h
+../lib/config.h
+io.h
+-
+stdbool.h
+-
+errno.h
+-
+limits.h
+-
+
+../lib/zip.h
+zipconf.h
+-
+stdio.h
+-
+sys/types.h
+-
+time.h
+-
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/src/getopt.h
+
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/src/zipcmp.c
+config.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/src/config.h
+errno.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/stat.h
+-
+strings.h
+-
+fts.h
+-
+zlib.h
+-
+getopt.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/src/getopt.h
+zip.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/src/zip.h
+compat.h
+/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/src/compat.h
+
+config.h
+zipconf.h
+zipconf.h
+
+zipconf.h
+inttypes.h
+-
+

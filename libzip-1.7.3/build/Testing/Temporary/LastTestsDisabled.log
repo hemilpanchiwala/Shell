@@ -1,0 +1,8 @@
+23:clone-fs-add.test
+24:clone-fs-delete.test
+25:clone-fs-replace.test
+109:set_compression_bzip2_to_deflate.test
+110:set_compression_deflate_to_bzip2.test
+113:set_compression_store_to_bzip2.test
+116:set_compression_store_to_xz.test
+118:set_compression_xz_to_store.test
