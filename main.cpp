@@ -6,19 +6,6 @@
 
 using namespace std;
 
-int execute_cd(char **input_args);
-int execute_ls(char **input_args);
-int execute_echo(char **input_args);
-int execute_pwd(char **input_args);
-int execute_history(char **input_args);
-int execute_whoami(char **input_args);
-int execute_exit(char **input_args);
-int execute_touch(char **input_args);
-int execute_rm(char **input_args);
-int execute_unzip(char **input_args);
-int execute_zip(char **input_args);
-
-
 char *poss_commands[50] = {
 	"cd",
 	"ls",
@@ -31,7 +18,8 @@ char *poss_commands[50] = {
 	"touch",
 	"rm",
 	"zip",
-	"unzip"
+	"unzip",
+	"run"
 };
 
 
@@ -47,7 +35,8 @@ int (*corresponding_func[]) (char **) = {
 	&execute_touch,
 	&execute_rm,
 	&execute_zip,
-	&execute_unzip
+	&execute_unzip,
+	&execute_run
 };
 
 void getMatches(char* s) {
@@ -149,6 +138,7 @@ char* read_input(){
 				position--;
 			}
 		} else if(c == '\t') {
+			cout<<"\n"<<buffer<<"\n";
 			printf("\n");
 			getMatches(buffer);
 			printf("\n");
