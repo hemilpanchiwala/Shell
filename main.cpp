@@ -50,6 +50,20 @@ int (*corresponding_func[]) (char **) = {
 	&execute_unzip
 };
 
+void getMatches(char* s) {
+	int i = 0;
+	while(poss_commands[i] != NULL) {
+		if(i >= 50) {
+			printf("Many more possibilties!!!");
+			break;
+		}
+		if(((string)poss_commands[i]).find((string)s) != string::npos) {
+			printf("%s ", poss_commands[i]);
+		}
+		i++;
+	}
+}
+
 
 int execute_exit(char **input_args){
   return 0;
@@ -62,12 +76,12 @@ int execute_command(char **input_args){
 	    return 1;
 	}
 
-	int poss_comm = sizeof(poss_commands) / sizeof(char *);
-
-	for (int i = 0; i < poss_comm; i++) {
-	    if (strcmp(input_args[0], poss_commands[i]) == 0) {
+	int i = 0;
+	while(poss_commands[i] != NULL) {
+		if (strcmp(input_args[0], poss_commands[i]) == 0) {
 	    	return (*corresponding_func[i])(input_args);
 	    }
+		i++;
 	}
 
 	// to be completed .... (if no command is found)
@@ -118,17 +132,31 @@ char* read_input(){
 	}
 
 	char c;
+	system("stty -icanon min 1");
 	while(1){
+
 		c = getchar();
 
 		if(c == EOF) {
 			exit(EXIT_SUCCESS);
 		} else if (c == '\n') {
 	    	buffer[position] = '\0';
-	    	return buffer;
-	    } else {
-	    	buffer[position] = c;
-	    }
+	    	break;
+	    } else if(c == 0x7F) {
+			position--;
+			if(position >= 0) {
+				buffer[position] = '\0';
+				position--;
+			}
+		} else if(c == '\t') {
+			printf("\n");
+			getMatches(buffer);
+			printf("\n");
+			position = 0;
+			position--;
+		} else {
+			buffer[position] = c;
+		}
 	    position++;
 
 	    if (position >= buff_size) {
@@ -140,6 +168,8 @@ char* read_input(){
 		    }
 	    }
 	}
+	system("stty cooked");
+	return buffer;
 }
 
 
