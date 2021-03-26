@@ -1,4 +1,9 @@
-#include "header.h"
+// #include "header.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <fstream>
+#include <bits/stdc++.h>
+#include <unistd.h>
 
 #define BUFFER_SIZE 1024
 #define TOK_BUFFER_SIZE 64
@@ -6,66 +11,41 @@
 
 using namespace std;
 
-int execute_cd(char **input_args);
-int execute_ls(char **input_args);
-int execute_echo(char **input_args);
-int execute_pwd(char **input_args);
-int execute_history(char **input_args);
-int execute_whoami(char **input_args);
-int execute_exit(char **input_args);
-int execute_touch(char **input_args);
-int execute_rm(char **input_args);
 
-
-char poss_commands[10][100] = {
-	"cd",
+char poss_commands[9][50] = {
 	"ls",
 	"echo",
 	"pwd",
+	"cp",
+	"touch",
+	"rm",
 	"history",
 	"whoami",
-	"help",
-	"exit",
-	"touch",
-	"rm"
+	"help"
 };
 
 
-int (*corresponding_func[]) (char **) = {
-	&execute_cd,
-	&execute_ls,
-	&execute_echo,
-	&execute_pwd,
-	&execute_history,
-	&execute_whoami,
-	&execute_help,
-	&execute_exit,
-	&execute_touch,
-	&execute_rm
-};
-
-
-int execute_exit(char **input_args){
-  return 0;
+void execute_exit(){
+	exit(1);
 }
 
 
-int execute_command(char **input_args){
-
-	if (input_args[0] == NULL) {
-	    return 1;
+int execute_cd(char **argv){
+	if (argv[1] == NULL) {
+		fprintf(stderr, "lsh: expected argument to \"cd\"\n");
+		return 0;
+	} else {
+		if (chdir(argv[1]) != 0) {
+			perror("lsh");
+			return 0;
+		}
+		else{
+			char cwd[1024];
+			getcwd(cwd, sizeof(cwd));
+			printf("Current working dir: %s\n", cwd);
+		}
 	}
-
-	int poss_comm = sizeof(poss_commands) / sizeof(char *);
-
-	for (int i = 0; i < poss_comm; i++) {
-	    if (strcmp(input_args[0], poss_commands[i]) == 0) {
-	    	return (*corresponding_func[i])(input_args);
-	    }
-	}
-
-	// to be completed .... (if no command is found)
-	return 0;
+	return 1;
 }
 
 
@@ -145,40 +125,69 @@ void loop_input(){
 	ofstream history_file("history.txt", ios::out | ios::app);
 	string command;
 
+	int no_poss_comm = sizeof(poss_commands) / 50;
+
 	do {
 		printf("\033[;32mhha@LBP-shell>>\033[0m ");
 
 		input_line = read_input();
 
+		// wirte the command in history file
 		command = input_line;
 		command += "\n";
 		history_file << command;
 		history_file.flush();
 
+		// split input command against whitespace or other identations
 		splitted_input = split_input_line(input_line);
 
-		if(strcmp(splitted_input[0], "cp") == 0){
-			int pid = fork();
-	    if(pid == 0){
-					char* tobesent[50];
-					int i = 0;
-					while(splitted_input[i]){
-						tobesent[i] = splitted_input[i];
-						i++;
-					}
-					tobesent[i] = splitted_input[i];
-	        char filename[50] = "./cp";
-	        execvp(filename, splitted_input);
-	    }
-	    else{
-	      sleep(1);
-				status = 1;
-	    }
+		if (splitted_input[0] == NULL) {
+		    status = 1;
 		}
 		else{
-			status = execute_command(splitted_input);
-		}
+			bool matched = false;
+			for (int i = 0; i < no_poss_comm && !matched; i++) {
 
+			    if (strcmp(splitted_input[0], poss_commands[i]) == 0) {
+						int pid = fork();
+				    if(pid == 0){
+								char* tobesent[50];
+								int ind = 0;
+								while(splitted_input[ind]){
+									tobesent[ind] = splitted_input[ind];
+									ind++;
+								}
+								tobesent[ind] = splitted_input[ind];
+								char filename[] = "./";
+				        strcat(filename, poss_commands[i]);
+				        execvp(filename, splitted_input);
+				    }
+				    else{
+				      sleep(1);
+							status = 1;
+				    }
+						matched = true;
+			    }
+			}
+
+			if (strcmp(splitted_input[0], "cd") == 0) {
+				status = execute_cd(splitted_input);
+				matched = true;
+			}
+
+			if (strcmp(splitted_input[0], "exit") == 0) {
+				free(input_line);
+				free(splitted_input);
+				history_file.close();
+				execute_exit();
+			}
+
+			if(!matched){
+				printf("The command entered is not supported by this shell!!!\n");
+				status = 1;
+			}
+
+		}
 
 		free(input_line);
 		free(splitted_input);

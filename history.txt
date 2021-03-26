@@ -76,3 +76,48 @@ help
 cp pwd.cpp newfile.java
 rm newfile.java
 exit
+whoami
+help
+echo something
+[Aexit
+exit
+whoami
+whoami
+whoami
+whoami
+help
+history
+touch newfile.java
+cp history.txt newfile.java
+rm newfile.java
+ls
+echo somwethinh
+pwd
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+whoami
+history
+cd src
+cd src
+pwd
+pwd
+cd ../..
+cd ..
+history
+history
+cd src
+pwd
+whoami
+whoami
+pwd
+history
+help
+whoami
+exit

@@ -1,10 +1,13 @@
-#include "header.h"
+// #include "header.h"
+#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int execute_history(char **input_args){
+
+int main(int argc, char const *argv[]){
 	string line;
-	queue<string> commands; 
+	queue<string> commands;
 	ifstream myfile ("history.txt");
 	if (myfile.is_open()){
 		while ( getline (myfile, line) ) {
@@ -19,7 +22,7 @@ int execute_history(char **input_args){
 		}
 
 	}
-	else cout << "Unable to show history\n"; 
+	else cout << "Unable to show history\n";
 
 	return 1;
 }
