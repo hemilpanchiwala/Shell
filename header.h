@@ -17,4 +17,3 @@ int execute_cd(char **input_args);
 int execute_pwd(char **input_args);
 int execute_echo(char **input_args);
 int execute_ls(char **input_args);
-int execute_ls(char **input_args);

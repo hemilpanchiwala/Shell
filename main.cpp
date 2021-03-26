@@ -17,7 +17,7 @@ int execute_touch(char **input_args);
 int execute_rm(char **input_args);
 
 
-char *poss_commands[50] = {
+char poss_commands[10][100] = {
 	"cd",
 	"ls",
 	"echo",
@@ -97,7 +97,7 @@ char** split_input_line(char *input_line){
 	}
 
 	tokens[position] = NULL;
-  	return tokens;
+  return tokens;
 }
 
 
@@ -149,14 +149,36 @@ void loop_input(){
 		printf("\033[;32mhha@LBP-shell>>\033[0m ");
 
 		input_line = read_input();
-		
+
 		command = input_line;
 		command += "\n";
 		history_file << command;
 		history_file.flush();
 
 		splitted_input = split_input_line(input_line);
-		status = execute_command(splitted_input);
+
+		if(strcmp(splitted_input[0], "cp") == 0){
+			int pid = fork();
+	    if(pid == 0){
+					char* tobesent[50];
+					int i = 0;
+					while(splitted_input[i]){
+						tobesent[i] = splitted_input[i];
+						i++;
+					}
+					tobesent[i] = splitted_input[i];
+	        char filename[50] = "./cp";
+	        execvp(filename, splitted_input);
+	    }
+	    else{
+	      sleep(1);
+				status = 1;
+	    }
+		}
+		else{
+			status = execute_command(splitted_input);
+		}
+
 
 		free(input_line);
 		free(splitted_input);

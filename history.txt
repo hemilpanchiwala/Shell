@@ -28,3 +28,51 @@ ls
 exit
 echo something
 history
+some commands
+some name and strings
+some name and strings
+cp ls.cpp newfile.txt
+exit
+help
+cp ls.cpp newfile.txt
+help
+cp ls.cpp newfile.txt
+help
+cp ls.cpp newfile.txt
+cp ls.cpp newfile.txt
+cp ls.cpp newfile.txt
+exit
+cp ls.cpp newfile.txt
+exit
+cp ls.cpp file1.java
+exit
+cp history.txt file.txt
+exit
+cp ls.cpp file1.txt
+exit
+cp history.txt file.txt
+exit
+cp history.txt file.txt
+exit
+cp ls.cpp file.java
+exit
+cp whoami.cpp file.txt
+exit
+help
+whoami
+ls
+echo hello hello helo
+echo echo echo
+cd src
+cd ..
+exit
+help
+touch somefile.txt
+rm somefile.txt
+exit
+whoami
+history
+help
+cp pwd.cpp newfile.java
+rm newfile.java
+exit

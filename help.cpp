@@ -1,7 +1,7 @@
 #include "header.h"
 
 
-extern char *poss_commands[50];
+extern char poss_commands[10][100];
 
 int execute_help(char **args)
 {
@@ -10,7 +10,7 @@ int execute_help(char **args)
   printf("Type program names and arguments, and hit enter.\n");
   printf("The following are built in:\n");
 
-  for (i = 0; i < sizeof(poss_commands)/50; i++) {
+  for (i = 0; i < sizeof(poss_commands)/100; i++) {
     printf("  %s\n", poss_commands[i]);
   }
 
