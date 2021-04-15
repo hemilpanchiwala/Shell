@@ -2,11 +2,11 @@
 
 #include <sys/wait.h>
 #include <sys/types.h>
+#include <sys/stat.h>
 #include <bits/stdc++.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <string.h>
 #include <dirent.h>
 #include <iostream>
@@ -28,3 +28,5 @@ int execute_rm(char **input_args);
 int execute_unzip(char **input_args);
 int execute_zip(char **input_args);
 int execute_run(char **input_args);
+int execute_getpermission(char **input_args);
+int execute_setpermission(char **input_args);

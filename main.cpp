@@ -19,7 +19,9 @@ char *poss_commands[50] = {
 	"rm",
 	"zip",
 	"unzip",
-	"run"
+	"run",
+	"getp",
+	"setp"
 };
 
 
@@ -36,7 +38,9 @@ int (*corresponding_func[]) (char **) = {
 	&execute_rm,
 	&execute_zip,
 	&execute_unzip,
-	&execute_run
+	&execute_run,
+	&execute_getpermission,
+	&execute_setpermission
 };
 
 void getMatches(char* s) {
@@ -123,7 +127,6 @@ char* read_input(){
 	char c;
 	system("stty -icanon min 1");
 	while(1){
-
 		c = getchar();
 
 		if(c == EOF) {
@@ -158,6 +161,7 @@ char* read_input(){
 		    }
 	    }
 	}
+
 	system("stty cooked");
 	return buffer;
 }
