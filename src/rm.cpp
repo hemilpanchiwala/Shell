@@ -1,7 +1,8 @@
-#include "header.h"
+#include <fstream>
 
-int execute_rm(char **args) {
-    int status = remove(args[1]);
+
+int main(int argc, char const *argv[]) {
+    int status = remove(argv[1]);
 
     if(status == 0) {
         return 1;

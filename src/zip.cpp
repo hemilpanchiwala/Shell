@@ -3,14 +3,16 @@
 
 using namespace std;
 
-int execute_zip(char **args) {
+int main(int argc, char const *argv[])
+{
     int err = 0;
-    zip *z = zip_open(args[1], 1, &err);
+    zip *z = zip_open(argv[1], 1, &err);
 
     int i = 2;
-    while(args[i] != NULL) {
-        
-        FILE *file = fopen(args[i], "r");
+    while (argv[i] != NULL)
+    {
+
+        FILE *file = fopen(argv[i], "r");
         char *code;
         size_t n = 0;
         int c;
@@ -19,13 +21,13 @@ int execute_zip(char **args) {
 
         while ((c = fgetc(file)) != EOF)
         {
-            code[n++] = (char) c;
+            code[n++] = (char)c;
         }
 
         code[n] = '\0';
 
         zip_source_t *s = zip_source_buffer(z, code, n, 0);
-        zip_file_add(z, args[i], s, 0);
+        zip_file_add(z, argv[i], s, 0);
         i++;
     }
 

@@ -1,0 +1,211 @@
+cd ..
+cd she
+cd shell
+exit
+pwd
+cd ../../
+cd Desktop/shell
+exit
+history
+exit
+pwd
+exit
+history
+exit
+echo hello everyone
+history
+exit
+whoami
+exit
+help
+pwd
+cd ../..
+cd shell
+cd Desktop/shell
+whoami
+echo echo something    wow
+ls
+exit
+echo something
+history
+history
+ped
+pwd
+exit
+help
+ls
+quit
+l
+l
+ls
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[A[A[A[A[A
+lss
+help
+ls
+help
+ls
+ššššššššššššššššššššššššššššššššššš
+ls
+pwd
+exit
+ls
+pwd
+pwd
+ls
+sls
+s
+ls
+ls
+pwd
+ls
+pwd
+
+
+ls
+ls
+help
+pwd
+ls
+ls
+pwd
+
+ls
+ls
+
+
+ls
+
+ls
+ls
+
+help
+lslslslslsllsls[ll][
+ls
+
+
+slslsl
+
+
+
+
+
+
+
+
+
+
+
+l
+ls
+
+l
+ls
+ls
+ls
+lss
+ls
+lss
+ls
+pwd
+pwd
+pw
+pw
+pw
+pwd
+ls
+exit
+lls
+ls
+help
+help
+exit
+ls
+ll
+lls
+lls
+ll
+ls
+ls
+pwd
+pwd
+pwd
+pwd
+echo hello
+help
+help
+help
+ls
+ls
+run abc
+run abc
+ls
+run abc
+ls
+run abc
+pwd
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+run abc
+ls
+pwd
+help
+exit
+ls
+ls
+ls
+
+help
+ls
+
+
+ls
+run abc
+pwd
+ls
+getp sam
+getp sample.txt
+getp sample.txt
+getp sample.txt
+getp sample.txt
+getp sample.txt
+setp sample.txt RWXR-XR-X
+getp sample.txt
+setp sample.txt RWXR-XRWX
+getp sample.txt
+setp sample.txt R-XR-XRWX
+getp sample.txt
+getp sample.txt
+setp sample.txt RWXRWXRWX
+getp sample.txt
+setp sample.txt
+setp sample.txt RWXRWXRWX
+getp sample.txt
+exit
+run abc
+ls
+getp sample.txt
+run abc
+run abc
+ls
+
+ls
+
+run abc
+run abc
+run abc
+run abc
+ls
+pwd
+cd ..
+run abc

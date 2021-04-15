@@ -1,7 +1,10 @@
-#include "header.h"
+#include <dirent.h>
+#include <cstddef>
+#include <unistd.h>
+#include <stdio.h>
 
 
-int execute_ls(char **input_args){
+int main(int argc, char const *argv[]){
 	char cwd[1024];
  	getcwd(cwd, sizeof(cwd));
 

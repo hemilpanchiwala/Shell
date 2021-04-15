@@ -1,10 +1,13 @@
-#include "header.h"
+#include <bits/stdc++.h>
+#include <sys/stat.h>
 
-int execute_getpermission(char **input_args) {
-    char* file_name = input_args[1];
+int main(int argc, char *argv[])
+{
+    char *file_name = argv[1];
 
     struct stat st;
-    if(stat(file_name, &st) == 0) {
+    if (stat(file_name, &st) == 0)
+    {
         mode_t curr_permission = st.st_mode;
         printf("\nUSER\n");
         (curr_permission & S_IRUSR) ? printf("R") : printf("-");
@@ -19,7 +22,9 @@ int execute_getpermission(char **input_args) {
         (curr_permission & S_IWOTH) ? printf("W") : printf("-");
         (curr_permission & S_IXOTH) ? printf("X") : printf("-");
         printf("\n");
-    } else {
+    }
+    else
+    {
         return 0;
     }
 
