@@ -347,3 +347,13 @@ cd ../..
 pwd
 cd shell
 pwd
+ls
+echo heloo hejk isdc echi
+cp imp.txt del.cpp
+rm del.cpp
+touch file.java
+rm file.java
+history
+whoami
+zip sample.txt file
+

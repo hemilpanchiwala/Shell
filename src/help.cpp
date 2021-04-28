@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char poss_commands[22][50] = {
+char poss_commands[21][50] = {
 	"ls",
 	"echo",
   "cd",
@@ -12,7 +12,6 @@ char poss_commands[22][50] = {
 	"whoami",
 	"zip",
 	"unzip",
-	"run",
 	"getp",
 	"setp",
 	"mkdir",
