@@ -3,6 +3,8 @@
 #include <fstream>
 #include <bits/stdc++.h>
 #include <unistd.h>
+#include <sys/wait.h>
+
 
 #define BUFFER_SIZE 1024
 #define TOK_BUFFER_SIZE 64
@@ -10,7 +12,7 @@
 
 using namespace std;
 
-char poss_commands[15][50] = {
+char poss_commands[21][50] = {
 	"ls",
 	"echo",
 	"pwd",
@@ -26,10 +28,15 @@ char poss_commands[15][50] = {
 	"setp",
 	"help",
 	"exit",
+	"mkdir",
+	"rmdir",
+	"mv",
+	"screenshot",
+	"test",
+	"calculator"
 };
 
-void getMatches(char *s)
-{
+void getMatches(char *s){
 	int i = 0;
 	while (poss_commands[i] != NULL)
 	{
@@ -181,95 +188,95 @@ char *read_input()
 
 int execute_run(char **argv);
 
-bool execute_command(char *input_line)
-{
+// bool execute_command(char *input_line)
+// {
 
-	char **splitted_input;
-	int status;
+// 	char **splitted_input;
+// 	int status;
 
-	string command;
+// 	string command;
 
-	int no_poss_comm = sizeof(poss_commands) / 50;
-	ofstream history_file("history.txt", ios::out | ios::app);
-	// wirte the command in history file
-	command = input_line;
-	command += "\n";
-	history_file << command;
-	history_file.flush();
+// 	int no_poss_comm = sizeof(poss_commands) / 50;
+// 	ofstream history_file("history.txt", ios::out | ios::app);
+// 	// wirte the command in history file
+// 	command = input_line;
+// 	command += "\n";
+// 	history_file << command;
+// 	history_file.flush();
 
-	// split input command against whitespace or other identations
-	splitted_input = split_input_line(input_line);
+// 	// split input command against whitespace or other identations
+// 	splitted_input = split_input_line(input_line);
 
-	if (splitted_input[0] == NULL)
-	{
-		status = 1;
-	}
-	else
-	{
-		bool matched = false;
-		for (int i = 0; i < no_poss_comm && !matched; i++)
-		{
+// 	if (splitted_input[0] == NULL)
+// 	{
+// 		status = 1;
+// 	}
+// 	else
+// 	{
+// 		bool matched = false;
+// 		for (int i = 0; i < no_poss_comm && !matched; i++)
+// 		{
 
-			if (strcmp(splitted_input[0], poss_commands[i]) == 0)
-			{
-				int pid = fork();
-				if (pid == 0)
-				{
-					char *tobesent[50];
-					int ind = 0;
-					while (splitted_input[ind])
-					{
-						tobesent[ind] = splitted_input[ind];
-						ind++;
-					}
-					tobesent[ind] = splitted_input[ind];
-					char filename[] = "./";
-					strcat(filename, poss_commands[i]);
-					execvp(filename, splitted_input);
-				}
-				else
-				{
-					sleep(1);
-					status = 1;
-				}
-				matched = true;
-			}
-		}
+// 			if (strcmp(splitted_input[0], poss_commands[i]) == 0)
+// 			{
+// 				int pid = fork();
+// 				if (pid == 0)
+// 				{
+// 					char *tobesent[50];
+// 					int ind = 0;
+// 					while (splitted_input[ind])
+// 					{
+// 						tobesent[ind] = splitted_input[ind];
+// 						ind++;
+// 					}
+// 					tobesent[ind] = splitted_input[ind];
+// 					char filename[] = "./";
+// 					strcat(filename, poss_commands[i]);
+// 					execvp(filename, splitted_input);
+// 				}
+// 				else
+// 				{
+// 					sleep(1);
+// 					status = 1;
+// 				}
+// 				matched = true;
+// 			}
+// 		}
 
-		if (strcmp(splitted_input[0], "cd") == 0)
-		{
-			status = execute_cd(splitted_input);
-			matched = true;
-		}
+// 		if (strcmp(splitted_input[0], "cd") == 0)
+// 		{
+// 			status = execute_cd(splitted_input);
+// 			matched = true;
+// 		}
 
-		if (strcmp(splitted_input[0], "run") == 0)
-		{
-			status = execute_run(splitted_input);
-			matched = true;
-		}
+// 		if (strcmp(splitted_input[0], "run") == 0)
+// 		{
+// 			status = execute_run(splitted_input);
+// 			matched = true;
+// 		}
 
-		if (strcmp(splitted_input[0], "exit") == 0)
-		{
-			free(input_line);
-			free(splitted_input);
-			history_file.close();
-			execute_exit();
-		}
+// 		if (strcmp(splitted_input[0], "exit") == 0)
+// 		{
+// 			free(input_line);
+// 			free(splitted_input);
+// 			history_file.close();
+// 			execute_exit();
+// 		}
 
-		if (!matched)
-		{
-			printf("The command entered is not supported by this shell!!!\n");
-			status = 1;
-		}
-	}
+// 		if (!matched)
+// 		{
+// 			printf("The command entered is not supported by this shell!!!\n");
+// 			status = 1;
+// 		}
+// 	}
 
-	free(input_line);
-	free(splitted_input);
+// 	free(input_line);
+// 	free(splitted_input);
 
-	history_file.close();
+// 	history_file.close();
 
-	return status;
-}
+// 	return status;
+// }
 
 int execute_run(char **argv)
 {
@@ -310,21 +317,86 @@ int execute_run(char **argv)
 	return 1;
 }
 
-void loop_input()
-{
-
+void loop_input(){
 	char *input_line;
+	char **splitted_input;
 	int status;
 
-	do
-	{
+	ofstream history_file("history.txt", ios::out | ios::app);
+	string command;
+
+	int no_poss_comm = sizeof(poss_commands) / 50;
+
+	do {
 		printf("\033[;32mhha@LBP-shell>>\033[0m ");
 
 		input_line = read_input();
 
-		status = execute_command(input_line);
+		// wirte the command in history file
+		command = input_line;
+		command += "\n";
+		history_file << command;
+		history_file.flush();
+
+		// split input command against whitespace or other identations
+		splitted_input = split_input_line(input_line);
+
+		if (splitted_input[0] == NULL) {
+		    status = 1;
+		}
+		else{
+			bool matched = false;
+			for (int i = 0; i < no_poss_comm && !matched; i++) {
+
+			    if (strcmp(splitted_input[0], poss_commands[i]) == 0) {
+					int pid = fork();
+					if(pid < 0) fprintf(stderr, "fork error!");
+				    else if(pid == 0){
+						char* tobesent[50];
+						int ind = 0;
+						while(splitted_input[ind]){
+							tobesent[ind] = splitted_input[ind];
+							ind++;
+						}
+						tobesent[ind] = splitted_input[ind];
+						char filename[] = "./";
+				        strcat(filename, poss_commands[i]);
+				        execvp(filename, splitted_input);
+				    }
+				    else{
+				    	if ((pid = waitpid(pid, &status, 0)) < 0)
+							fprintf(stderr, "pid error!");
+						status = 1;
+				    }
+					matched = true;
+			    }
+			}
+
+			if (strcmp(splitted_input[0], "cd") == 0) {
+				status = execute_cd(splitted_input);
+				matched = true;
+			}
+
+			if (strcmp(splitted_input[0], "exit") == 0) {
+				free(input_line);
+				free(splitted_input);
+				history_file.close();
+				execute_exit();
+			}
+
+			if(!matched){
+				printf("The command entered is not supported by this shell!!!\n");
+				status = 1;
+			}
+
+		}
+
+		free(input_line);
+		free(splitted_input);
 
 	} while (status);
+
+	history_file.close();
 }
 
 int main()

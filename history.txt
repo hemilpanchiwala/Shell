@@ -209,3 +209,57 @@ ls
 pwd
 cd ..
 run abc
+ls
+
+screenshot
+calculator
++74+
+alulo
+mirnewd
+test speaker
+exit
+scre
+screenshot
+calculator
+kdr edexit
+exit
+mkdir newd
+rmdir newd
+screenshot
+test speaker
+test speade
+test keyboard
+calculator
++83
+
+ou sttx
+xi
+i
+calculator
++83=
+x
+calculator
+calculator
+mkdir newd
+rmdir newd
+test speaker
+test keyboard
+screenshot
+calculator
+test speaker
+exit
+
+exit
+exit
+ext
+exit
+calculator
+
+test keyboard
+test speaker
+exit
+touch temp.txt
+rm temp.txt
+pwd
+ls
+exit
