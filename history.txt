@@ -263,3 +263,48 @@ rm temp.txt
 pwd
 ls
 exit
+ls
+cd ..
+cd LBP
+ls
+ls
+ls
+cd ..
+ls
+cd Shell
+zip abc.zip sample.txt sample1.txt
+unzip abc.zip
+getp sample.txt
+setp sample.txt RWXRWXRWX
+getp sample.txt
+touch a.cpp
+rm a.cpp
+mkdir abcd
+rmdir abcd
+mv sample.txt src/sample.txt
+mvmv ./sample.txt ./src
+mv sample.txt 
+mv ./sample.txt ./src
+cd src
+mv ./sample.txt ..
+mv ./sample.txt ./..
+mv ./sample.txt ../
+cp ./sample.txt ./sample1.txt
+cd ..
+cp ./sample.txt ./sample1.txt
+calculator
+test speaker
+test keyboard
+screenshot
+help
+help
+help
+whoami
+exit
+exit
+exit
+exit
+ls
+pwd
+help
+exit

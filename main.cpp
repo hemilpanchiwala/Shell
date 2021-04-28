@@ -55,7 +55,7 @@ void getMatches(char *s){
 
 void execute_exit()
 {
-	exit(1);
+	exit(0);
 }
 
 int execute_cd(char **argv)
