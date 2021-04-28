@@ -357,3 +357,12 @@ history
 whoami
 zip sample.txt file
 
+ls
+cd src
+cd ..
+touch a.cpp
+rm a.cpp
+screenshot
+getp sample.txt
+test speaker
+exit
