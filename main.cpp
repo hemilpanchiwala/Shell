@@ -38,18 +38,12 @@ char poss_commands[21][50] = {
 
 void getMatches(char *s){
 	int i = 0;
-	while (poss_commands[i] != NULL)
+	for (i = 0; i < sizeof(poss_commands) / 50; i++)
 	{
-		if (i >= 50)
-		{
-			printf("Many more possibilties!!!");
-			break;
-		}
 		if (((string)poss_commands[i]).find((string)s) != string::npos)
 		{
 			printf("%s ", poss_commands[i]);
 		}
-		i++;
 	}
 }
 

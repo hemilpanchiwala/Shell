@@ -308,3 +308,9 @@ ls
 pwd
 help
 exit
+ls
+pwd
+pwd
+ls
+zip
+exit
