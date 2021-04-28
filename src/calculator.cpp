@@ -113,10 +113,10 @@ int main(int argc, char const *argv[]){
         cout<<">>";
         string exp;cin>>exp;
         if(exp == "exit")
-            return 0;
+            exit(0);
         
         int result = evaluate(exp);
         cout<<">>"<<result<<endl;
     }
-    return 0;
+    exit(0);
 }

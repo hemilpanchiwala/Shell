@@ -36,5 +36,5 @@ int main(int argc, char const *argv[])
 
     zip_close(z);
 
-    return 1;
+    exit(0);
 }

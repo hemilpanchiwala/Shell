@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         if (permissions[i] != 'R' && permissions[i] != 'W' && permissions[i] != 'X' && permissions[i] != '-')
         {
             printf("Enter valid permissions!!!\n");
-            return 0;
+            exit(-1);
         }
 
         if (permissions[i] != '-')
@@ -73,5 +73,5 @@ int main(int argc, char *argv[])
 
     chmod(file_name, pp);
 
-    return 1;
+    exit(0);
 }

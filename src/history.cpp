@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <bits/stdc++.h>
 #include <iostream>
 
@@ -21,7 +22,10 @@ int main(int argc, char const *argv[]){
 		}
 
 	}
-	else cout << "Unable to show history\n";
+	else{
+		cout << "Unable to show history\n";
+		exit(-1);	
+	}
 
-	return 1;
+	exit(0);
 }

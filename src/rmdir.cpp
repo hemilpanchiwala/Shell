@@ -23,11 +23,12 @@ int main(int argc, char const *argv[]){
         if (nftw(argv[1], rmFiles,10, FTW_DEPTH|FTW_MOUNT|FTW_PHYS) < 0)
         {
             cout<<"no such directory exist"<<endl;
-            // exit(1);
+            exit(-1);
         }
         else{
             cout<<"directory removed successfully"<<endl;
         }
 	}
-	return 0;
+	
+    exit(0);
 }

@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <stdio.h>
 
 char poss_commands[21][50] = {
@@ -36,5 +37,5 @@ int main(int argc, char const *argv[])
     printf("  %s\n", poss_commands[i]);
   }
   
-  return 1;
+  exit(0);
 }

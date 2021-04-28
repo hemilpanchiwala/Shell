@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <stdio.h>
 
 
@@ -8,5 +9,5 @@ int main(int argc, char const *argv[]){
 		position++;
 	}
 	printf("\n");
-	return 1;
+	exit(0);
 }

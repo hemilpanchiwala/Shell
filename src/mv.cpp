@@ -1,4 +1,4 @@
-// #include "header.h"
+#include <cstdlib>
 #include <bits/stdc++.h> 
 #include <iostream> 
 #include <stdio.h>
@@ -94,5 +94,5 @@ int main(int argc, char const *argv[]){
   free(src);
   free(dest);
 
-  return 0;
+  exit(0);
 }

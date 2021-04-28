@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
 #include <dirent.h>
@@ -94,14 +95,11 @@ string convertToString(char* a){
 }
 
 
-bool cpfoldercontenttodest(){return true;}
-
-
 int main(int argc, char *argv[]) {
 
     if(argc < 3){
         printf("Invalid arguments passed for \"cp\" command.\n");
-        return -1;
+        exit(-1);
     }
 
     bool branch = true;
@@ -116,8 +114,11 @@ int main(int argc, char *argv[]) {
         else{
           if(file1 == file && file2 == file){
               // cp Src_file Dest_file
-              if(copyContent(argv[1], argv[2])) return 0;
-              else return 1;
+              if(copyContent(argv[1], argv[2])) exit(0);
+              else{
+                  printf("Error in copying file.\n");
+                  exit(-1);
+              }
           }
           else if(file1 == directory && file2 == directory){
 
@@ -151,7 +152,7 @@ int main(int argc, char *argv[]) {
 
         if(!allfiles){
             printf("Invalid arguments passed for \"cp\" command.\n");
-            return -1;
+            exit(-1);
         }
 
         string abs_filename;
@@ -166,5 +167,5 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    return 0;
+    exit(0);
 }

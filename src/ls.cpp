@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <dirent.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -17,5 +18,5 @@ int main(int argc, char const *argv[]){
 		closedir(d);
 	}
 
-	return 1;
+	exit(0);
 }

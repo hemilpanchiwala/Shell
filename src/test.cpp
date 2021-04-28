@@ -32,5 +32,6 @@ int main(int argc, char const *argv[]){
         system("stty cooked");
         // cout<<endl;
     }
-    return 0;
+    
+    exit(0);
 }
