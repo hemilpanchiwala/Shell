@@ -1,9 +1,9 @@
-// #include "header.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <fstream>
 #include <bits/stdc++.h>
 #include <unistd.h>
+#include <sys/wait.h>
 
 #define BUFFER_SIZE 1024
 #define TOK_BUFFER_SIZE 64
@@ -12,21 +12,38 @@
 using namespace std;
 
 
-char poss_commands[9][50] = {
+char poss_commands[19][50] = {
 	"ls",
 	"echo",
-	"pwd",
 	"cp",
 	"touch",
 	"rm",
 	"history",
 	"whoami",
-	"help"
+	"zip",
+	"unzip",
+	"run",
+	"getp",
+	"setp",
+	"help",
+	"mkdir",
+	"rmdir",
+	"mv",
+	"screenshot",
+	"test",
+	"calculator"
 };
 
 
 void execute_exit(){
 	exit(1);
+}
+
+
+int execute_pwd(char **argv){
+	char cwd[1024];
+	getcwd(cwd, sizeof(cwd));
+	printf("Current working dir: %s\n", cwd);
 }
 
 
@@ -149,29 +166,36 @@ void loop_input(){
 			for (int i = 0; i < no_poss_comm && !matched; i++) {
 
 			    if (strcmp(splitted_input[0], poss_commands[i]) == 0) {
-						int pid = fork();
-				    if(pid == 0){
-								char* tobesent[50];
-								int ind = 0;
-								while(splitted_input[ind]){
-									tobesent[ind] = splitted_input[ind];
-									ind++;
-								}
-								tobesent[ind] = splitted_input[ind];
-								char filename[] = "./";
+					int pid = fork();
+					if(pid < 0) fprintf(stderr, "fork error!");
+				    else if(pid == 0){
+						char* tobesent[50];
+						int ind = 0;
+						while(splitted_input[ind]){
+							tobesent[ind] = splitted_input[ind];
+							ind++;
+						}
+						tobesent[ind] = splitted_input[ind];
+						char filename[] = "./";
 				        strcat(filename, poss_commands[i]);
 				        execvp(filename, splitted_input);
 				    }
 				    else{
-				      sleep(1);
-							status = 1;
+				    	if ((pid = waitpid(pid, &status, 0)) < 0)
+							fprintf(stderr, "pid error!");
+						status = 1;
 				    }
-						matched = true;
+					matched = true;
 			    }
 			}
 
 			if (strcmp(splitted_input[0], "cd") == 0) {
 				status = execute_cd(splitted_input);
+				matched = true;
+			}
+
+			if (strcmp(splitted_input[0], "pwd") == 0) {
+				status = execute_pwd(splitted_input);
 				matched = true;
 			}
 

@@ -1,32 +1,41 @@
-// #include "header.h"
 #include <stdio.h>
 
-
-char poss_commands[11][50] = {
-	"cd",
+char poss_commands[22][50] = {
 	"ls",
 	"echo",
+  "cd",
 	"pwd",
 	"cp",
 	"touch",
 	"rm",
 	"history",
 	"whoami",
+	"zip",
+	"unzip",
+	"run",
+	"getp",
+	"setp",
+	"mkdir",
+	"rmdir",
+	"mv",
+	"screenshot",
+	"test",
+	"calculator",
 	"help",
-  "exit"
+	"exit"
 };
 
-int main(int argc, char const *argv[]){
-
+int main(int argc, char const *argv[])
+{
   int i;
   printf("Hemant, Hemil, Ashish UNIX SHELL VARIANT\n");
   printf("Type program names and arguments, and hit enter.\n");
   printf("The following are built in:\n");
 
-  for (i = 0; i < sizeof(poss_commands) / 50; i++) {
+  for (i = 0; i < sizeof(poss_commands) / 50; i++)
+  {
     printf("  %s\n", poss_commands[i]);
   }
-
-  printf("Use the man command for information on other programs.\n");
+  
   return 1;
 }

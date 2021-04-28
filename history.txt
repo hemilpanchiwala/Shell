@@ -121,3 +121,36 @@ history
 help
 whoami
 exit
+help
+history
+cp history.txt newfile.txt
+rm newfile.txt
+cp MovieGuide.mp4 somefile.mp4
+exit
+echo hello
+help
+man
+history
+ls
+exit
+help
+exit
+help
+exit
+pwd
+cd src
+pwd
+cd ..
+pwd
+help
+whoami
+echo hello hellp hello
+exit
+echo hello
+pwd
+cd src
+pwd
+cd ../..
+pwd
+cd shell
+pwd
