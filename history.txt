@@ -357,3 +357,16 @@ history
 whoami
 zip sample.txt file
 
+pwd
+ls
+history
+cd src
+pwd
+ls
+cd ../../../
+echo hemant
+ls
+pwd
+cd Desktop
+touch newfile
+exit

@@ -11,6 +11,8 @@
 
 using namespace std;
 
+# define PATH "/home/hemant/Desktop/shell/"
+
 
 char poss_commands[18][50] = {
 	"ls",
@@ -242,13 +244,13 @@ void loop_input(){
 							ind++;
 						}
 						tobesent[ind] = splitted_input[ind];
-						char filename[] = "./";
+						char filename[] = PATH;
 				        strcat(filename, poss_commands[i]);
 				        execvp(filename, splitted_input);
 				    }
 				    else{
 				    	if ((pid = waitpid(pid, &status, 0)) < 0)
-							fprintf(stderr, "pid error!");
+						fprintf(stderr, "pid error!");
 						status = 1;
 				    }
 					matched = true;
@@ -259,17 +261,21 @@ void loop_input(){
 				status = execute_cd(splitted_input);
 				matched = true;
 			}
-
-			if (strcmp(splitted_input[0], "pwd") == 0) {
+			else if (strcmp(splitted_input[0], "pwd") == 0) {
 				status = execute_pwd(splitted_input);
 				matched = true;
 			}
-
-			if (strcmp(splitted_input[0], "exit") == 0) {
+			else if (strcmp(splitted_input[0], "exit") == 0) {
 				free(input_line);
 				free(splitted_input);
 				history_file.close();
 				execute_exit();
+			}
+			else{
+				char current_path[1024];
+				getcwd(current_path, sizeof(current_path));
+				strcat(current_path, splitted_input[0]);
+				execvp(current_path, splitted_input);
 			}
 
 			if(!matched){
