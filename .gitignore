@@ -8,4 +8,7 @@
 # Local History for Visual Studio Code
 .history/
 
+*.txt
+myshell
+
 *.out
