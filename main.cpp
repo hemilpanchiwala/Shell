@@ -11,6 +11,8 @@
 
 using namespace std;
 
+# define PATH "/home/blackreaper/Documents/Shell/"
+
 
 char poss_commands[18][50] = {
 	"ls",
@@ -203,7 +205,7 @@ int execute_run(char **argv)
 void loop_input(){
 	char *input_line;
 	char **splitted_input;
-	int status;
+	int status = 1;
 
 	ofstream history_file("history.txt", ios::out | ios::app);
 	string command;
@@ -242,7 +244,7 @@ void loop_input(){
 							ind++;
 						}
 						tobesent[ind] = splitted_input[ind];
-						char filename[] = "./";
+						char filename[] = PATH;
 				        strcat(filename, poss_commands[i]);
 				        execvp(filename, splitted_input);
 				    }
@@ -259,17 +261,36 @@ void loop_input(){
 				status = execute_cd(splitted_input);
 				matched = true;
 			}
-
-			if (strcmp(splitted_input[0], "pwd") == 0) {
+			else if (strcmp(splitted_input[0], "pwd") == 0) {
 				status = execute_pwd(splitted_input);
 				matched = true;
 			}
-
-			if (strcmp(splitted_input[0], "exit") == 0) {
+			else if (strcmp(splitted_input[0], "exit") == 0) {
 				free(input_line);
 				free(splitted_input);
 				history_file.close();
 				execute_exit();
+			}
+			else{
+				int pid = fork();
+				if(pid < 0) fprintf(stderr, "fork error!");
+				else if(pid == 0){
+					char current_path[1024];
+					getcwd(current_path, sizeof(current_path));
+					strcat(current_path, "/");
+					strcat(current_path, splitted_input[0]);
+					int executed = execvp(current_path, splitted_input);
+					if(executed == -1) {
+						printf("The command entered is not supported by this shell!!!\n");
+						kill(getpid(), SIGKILL);
+					}
+				}
+				else{
+					if ((pid = waitpid(pid, &status, 0)) < 0)
+						fprintf(stderr, "pid error!");
+					status = 1;
+				}
+				matched = true;
 			}
 
 			if(!matched){
