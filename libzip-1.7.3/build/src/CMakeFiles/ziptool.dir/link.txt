@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/ziptool.dir/ziptool.c.o  -o ziptool  -Wl,-rpath,"/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/lib:" ../lib/libzip.so.5.3 

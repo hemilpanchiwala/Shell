@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/hole.dir/hole.c.o CMakeFiles/hole.dir/source_hole.c.o  -o hole  -Wl,-rpath,"/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/lib" ../lib/libzip.so.5.3 

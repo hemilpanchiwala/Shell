@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/zipcmp.dir/zipcmp.c.o  -o zipcmp  -Wl,-rpath,"/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/lib:" ../lib/libzip.so.5.3 /usr/lib/x86_64-linux-gnu/libz.so 

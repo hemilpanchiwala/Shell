@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/tryopen.dir/tryopen.c.o  -o tryopen  -Wl,-rpath,"/home/blackreaper/Documents/6th Sem/LBP/Shell/libzip-1.7.3/build/lib" ../lib/libzip.so.5.3 
