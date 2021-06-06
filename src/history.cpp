@@ -8,7 +8,7 @@ using namespace std;
 int main(int argc, char const *argv[]){
 	string line;
 	queue<string> commands;
-	ifstream myfile ("history.txt");
+	ifstream myfile ("/home/blackreaper/Documents/Shell/history.txt");
 	if (myfile.is_open()){
 		while ( getline (myfile, line) ) {
 			commands.push(line);

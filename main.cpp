@@ -11,7 +11,7 @@
 
 using namespace std;
 
-# define PATH "/home/hemant/Desktop/shell/"
+# define PATH "/home/blackreaper/Documents/Shell/"
 
 
 char poss_commands[18][50] = {
