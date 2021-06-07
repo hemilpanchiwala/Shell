@@ -34,3 +34,7 @@ the Shell. For installing libzip, please follow the instructions given here **ht
 variable $PATH through the .bashrc file. Refer this link for setting the $PATH variable.
 
 5. Now, just run the myshell from any directory and enjoy using our Shell!
+
+## Simulation Results
+
+Please check out the live recording of the UNIX Shell at https://drive.google.com/file/d/1FL9vuSBjzV47zD9HZnfUyVB824laBG_t/view?usp=sharing.
